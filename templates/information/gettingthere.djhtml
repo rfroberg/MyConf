@@ -26,6 +26,7 @@
 <li><a style="background-image:url('{{ STATIC_URL }}style/ic_by_train_32.png');"href="#bytrain">By train or bus</a></li>
 <li><a style="background-image:url('{{ STATIC_URL }}style/ic_by_car_32.png');" href="#bycar">By car</a></li>
 <li><a style="background-image:url('{{ STATIC_URL }}style/ic_by_transport_32.png');" href="#public">Public transports</a></li>
+<li><a style="background-image:url('{{ STATIC_URL }}style/ic_access.png');" href="#access">Accessibility information</a></li>
 </ul>
 
 <h3><a name="byplane">By plane</a></h3>
@@ -106,6 +107,10 @@ of <a href="http://kartor.eniro.se/query?mop=aq&amp;mapstate=8%3B11.93637%3B57.7
 <!-- p>Here's a view of the IT university venue building from the bus stop
 Lindholmen: Lindholmen bus stop</p -->
 
+<h3><a name="access">Accessibility information</a></h3>
+<p>
+You can read more about the venue accessibility on <a href="/information/accessibility/">this page</a>.
+</p>
 <p class="footnote"><a name="note1">*:</a> prices are given for information only and may not be accurate. <a href="/information/currency/">More information about currency.</a></p>
 
 {% endwith %}
